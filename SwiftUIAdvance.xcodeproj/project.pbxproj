@@ -11,6 +11,7 @@
 		0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA22B932EE700D0BB05 /* ContentView.swift */; };
 		0FCE6BA52B932EE900D0BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */; };
 		0FCE6BA82B932EE900D0BB05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA72B932EE900D0BB05 /* Preview Assets.xcassets */; };
+		0FCE6BAF2B932F5500D0BB05 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BAE2B932F5500D0BB05 /* ViewModifierBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0FCE6BA22B932EE700D0BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCE6BA72B932EE900D0BB05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FCE6BAE2B932F5500D0BB05 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0FCE6B9F2B932EE700D0BB05 /* SwiftUIAdvance */ = {
 			isa = PBXGroup;
 			children = (
+				0FCE6BAE2B932F5500D0BB05 /* ViewModifierBootcamp.swift */,
 				0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */,
 				0FCE6BA22B932EE700D0BB05 /* ContentView.swift */,
 				0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCE6BAF2B932F5500D0BB05 /* ViewModifierBootcamp.swift in Sources */,
 				0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */,
 				0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */,
 			);
