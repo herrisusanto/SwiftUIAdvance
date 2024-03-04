@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DefaultButtonViewModifier: ViewModifier {
     
-    let backgroundColor: Color
+    let backgroundColor: Color 
     
     func body(content: Content) -> some View {
         content

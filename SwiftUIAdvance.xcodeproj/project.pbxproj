@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9129202B9612D200617ED9 /* CustomAnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91291F2B9612D200617ED9 /* CustomAnyTransition.swift */; };
 		0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */; };
 		0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA22B932EE700D0BB05 /* ContentView.swift */; };
 		0FCE6BA52B932EE900D0BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F91291F2B9612D200617ED9 /* CustomAnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransition.swift; sourceTree = "<group>"; };
 		0FCE6B9D2B932EE700D0BB05 /* SwiftUIAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvanceApp.swift; sourceTree = "<group>"; };
 		0FCE6BA22B932EE700D0BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		0FCE6B9F2B932EE700D0BB05 /* SwiftUIAdvance */ = {
 			isa = PBXGroup;
 			children = (
+				0F91291F2B9612D200617ED9 /* CustomAnyTransition.swift */,
 				0FCE6BB02B933A3200D0BB05 /* CustomButtonStyle.swift */,
 				0FCE6BAE2B932F5500D0BB05 /* ViewModifierBootcamp.swift */,
 				0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				0FCE6BAF2B932F5500D0BB05 /* ViewModifierBootcamp.swift in Sources */,
 				0FCE6BB12B933A3200D0BB05 /* CustomButtonStyle.swift in Sources */,
+				0F9129202B9612D200617ED9 /* CustomAnyTransition.swift in Sources */,
 				0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */,
 				0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */,
 			);
