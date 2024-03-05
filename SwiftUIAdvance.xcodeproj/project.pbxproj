@@ -17,6 +17,11 @@
 		0F91292E2B96F01B00617ED9 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91292D2B96F01B00617ED9 /* PreferenceKeyBootcamp.swift */; };
 		0F9129312B97002600617ED9 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129302B97002600617ED9 /* GeometryPreferenceKeyBootcamp.swift */; };
 		0F9129332B9702AC00617ED9 /* ScrollviewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129322B9702AC00617ED9 /* ScrollviewOffsetPreferenceKeyBootcamp.swift */; };
+		0F9129362B97116300617ED9 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129352B97116300617ED9 /* AppTabBarView.swift */; };
+		0F9129382B97126F00617ED9 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129372B97126F00617ED9 /* CustomTabBarView.swift */; };
+		0F91293A2B97180C00617ED9 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129392B97180C00617ED9 /* CustomTabBarContainerView.swift */; };
+		0F91293C2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91293B2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift */; };
+		0F91293E2B97276300617ED9 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91293D2B97276300617ED9 /* TabBarItem.swift */; };
 		0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */; };
 		0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA22B932EE700D0BB05 /* ContentView.swift */; };
 		0FCE6BA52B932EE900D0BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 		0F91292D2B96F01B00617ED9 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		0F9129302B97002600617ED9 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		0F9129322B9702AC00617ED9 /* ScrollviewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		0F9129352B97116300617ED9 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		0F9129372B97126F00617ED9 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		0F9129392B97180C00617ED9 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		0F91293B2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		0F91293D2B97276300617ED9 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		0FCE6B9D2B932EE700D0BB05 /* SwiftUIAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvanceApp.swift; sourceTree = "<group>"; };
 		0FCE6BA22B932EE700D0BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +76,18 @@
 			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
 		};
+		0F9129342B97114600617ED9 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F9129352B97116300617ED9 /* AppTabBarView.swift */,
+				0F9129372B97126F00617ED9 /* CustomTabBarView.swift */,
+				0F9129392B97180C00617ED9 /* CustomTabBarContainerView.swift */,
+				0F91293B2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift */,
+				0F91293D2B97276300617ED9 /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		0FCE6B942B932EE700D0BB05 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,7 @@
 		0FCE6B9F2B932EE700D0BB05 /* SwiftUIAdvance */ = {
 			isa = PBXGroup;
 			children = (
+				0F9129342B97114600617ED9 /* CustomTabBar */,
 				0F91292F2B97000100617ED9 /* PreferenceKeyBootcamp */,
 				0F9129272B96B6E200617ED9 /* AnimateableData.swift */,
 				0F9129292B96BE2D00617ED9 /* Generics.swift */,
@@ -183,7 +206,9 @@
 			files = (
 				0F9129262B96AC4B00617ED9 /* CustomCurves.swift in Sources */,
 				0F9129282B96B6E200617ED9 /* AnimateableData.swift in Sources */,
+				0F9129362B97116300617ED9 /* AppTabBarView.swift in Sources */,
 				0F9129332B9702AC00617ED9 /* ScrollviewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				0F9129382B97126F00617ED9 /* CustomTabBarView.swift in Sources */,
 				0F9129222B9618D900617ED9 /* CustomMatchedGeometryEffect.swift in Sources */,
 				0FCE6BAF2B932F5500D0BB05 /* ViewModifierBootcamp.swift in Sources */,
 				0FCE6BB12B933A3200D0BB05 /* CustomButtonStyle.swift in Sources */,
@@ -192,7 +217,10 @@
 				0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */,
 				0F9129312B97002600617ED9 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				0F91292C2B96CEF100617ED9 /* ViewBuilderBootcamp.swift in Sources */,
+				0F91293E2B97276300617ED9 /* TabBarItem.swift in Sources */,
+				0F91293A2B97180C00617ED9 /* CustomTabBarContainerView.swift in Sources */,
 				0F91292A2B96BE2D00617ED9 /* Generics.swift in Sources */,
+				0F91293C2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift in Sources */,
 				0F9129242B96A75400617ED9 /* CustomShapes.swift in Sources */,
 				0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */,
 			);
