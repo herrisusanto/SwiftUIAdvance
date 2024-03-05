@@ -10,6 +10,7 @@
 		0F9129202B9612D200617ED9 /* CustomAnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91291F2B9612D200617ED9 /* CustomAnyTransition.swift */; };
 		0F9129222B9618D900617ED9 /* CustomMatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129212B9618D900617ED9 /* CustomMatchedGeometryEffect.swift */; };
 		0F9129242B96A75400617ED9 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129232B96A75400617ED9 /* CustomShapes.swift */; };
+		0F9129262B96AC4B00617ED9 /* CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9129252B96AC4B00617ED9 /* CustomCurves.swift */; };
 		0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */; };
 		0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA22B932EE700D0BB05 /* ContentView.swift */; };
 		0FCE6BA52B932EE900D0BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		0F91291F2B9612D200617ED9 /* CustomAnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransition.swift; sourceTree = "<group>"; };
 		0F9129212B9618D900617ED9 /* CustomMatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		0F9129232B96A75400617ED9 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		0F9129252B96AC4B00617ED9 /* CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurves.swift; sourceTree = "<group>"; };
 		0FCE6B9D2B932EE700D0BB05 /* SwiftUIAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvanceApp.swift; sourceTree = "<group>"; };
 		0FCE6BA22B932EE700D0BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				0FCE6BA62B932EE900D0BB05 /* Preview Content */,
 				0F9129212B9618D900617ED9 /* CustomMatchedGeometryEffect.swift */,
 				0F9129232B96A75400617ED9 /* CustomShapes.swift */,
+				0F9129252B96AC4B00617ED9 /* CustomCurves.swift */,
 			);
 			path = SwiftUIAdvance;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9129262B96AC4B00617ED9 /* CustomCurves.swift in Sources */,
 				0F9129222B9618D900617ED9 /* CustomMatchedGeometryEffect.swift in Sources */,
 				0FCE6BAF2B932F5500D0BB05 /* ViewModifierBootcamp.swift in Sources */,
 				0FCE6BB12B933A3200D0BB05 /* CustomButtonStyle.swift in Sources */,
