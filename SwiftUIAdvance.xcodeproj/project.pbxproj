@@ -23,6 +23,7 @@
 		0F91293C2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91293B2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift */; };
 		0F91293E2B97276300617ED9 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91293D2B97276300617ED9 /* TabBarItem.swift */; };
 		0F9210DB2B9A033A00D7C902 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9210DA2B9A033A00D7C902 /* UIViewRepresentableBootcamp.swift */; };
+		0F9210DD2B9B48C400D7C902 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9210DC2B9B48C400D7C902 /* UIViewControllerRepresentableBootcamp.swift */; };
 		0FCE6BA12B932EE700D0BB05 /* SwiftUIAdvanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */; };
 		0FCE6BA32B932EE700D0BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA22B932EE700D0BB05 /* ContentView.swift */; };
 		0FCE6BA52B932EE900D0BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		0F91293B2B9723CB00617ED9 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		0F91293D2B97276300617ED9 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		0F9210DA2B9A033A00D7C902 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		0F9210DC2B9B48C400D7C902 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		0FCE6B9D2B932EE700D0BB05 /* SwiftUIAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCE6BA02B932EE700D0BB05 /* SwiftUIAdvanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvanceApp.swift; sourceTree = "<group>"; };
 		0FCE6BA22B932EE700D0BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				0FCE6BA42B932EE900D0BB05 /* Assets.xcassets */,
 				0FCE6BA62B932EE900D0BB05 /* Preview Content */,
 				0F91292B2B96CEF100617ED9 /* ViewBuilderBootcamp.swift */,
+				0F9210DC2B9B48C400D7C902 /* UIViewControllerRepresentableBootcamp.swift */,
 			);
 			path = SwiftUIAdvance;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9210DD2B9B48C400D7C902 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				0F9129262B96AC4B00617ED9 /* CustomCurves.swift in Sources */,
 				0F9129282B96B6E200617ED9 /* AnimateableData.swift in Sources */,
 				0F9129362B97116300617ED9 /* AppTabBarView.swift in Sources */,
